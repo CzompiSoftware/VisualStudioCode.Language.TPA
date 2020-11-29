@@ -1,0 +1,39 @@
+{
+	"name":"tpa",
+	"displayName":"%displayName%",
+	"description":"%description%",
+	"version":"1.0.0",
+	"publisher":"Czompi",
+	"license":"MIT",
+	"engines":{
+		"vscode":"*"
+	},
+	"contributes":{
+		"languages":[
+			{
+				"id":"tpa",
+				"extensions":[
+					".tpa"
+				],
+				"aliases":[
+					"TampoPrint Alfa",
+					"tpa"
+				],
+				"configuration":"./language-configuration.json"
+			}
+		],
+		"grammars":[
+			{
+				"language":"tpa",
+				"scopeName":"source.tpafile",
+				"path":"./syntaxes/tpafile.tmLanguage.json"
+			}
+		],
+		"snippets":[
+			{
+				"language":"tpa",
+				"path":"./snippets/tpafile.code-snippets"
+			}
+		]
+	}
+}
