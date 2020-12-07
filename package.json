@@ -3,8 +3,12 @@
 	"displayName":"%displayName%",
 	"description":"%description%",
 	"version":"1.0.0",
-	"publisher":"Czompi",
+	"publisher":"CzompiSoftware",
 	"license":"MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CzompiSoftware/VisualStudioCode.Language.TPA"
+	},
 	"engines":{
 		"vscode":"*"
 	},
