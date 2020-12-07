@@ -58,7 +58,7 @@
 		"parameters":{
 			"patterns":[
 				{
-					"match":"(?<=^|\\s)((?i)(OFF|OUT|POSA|PTFTP_DIFF1|bc|BSZ_SRC|BTR_ED_FS1|CODE_2_5_I|DD_MM_YY|DMOUT_CL|EDGE_GRAVE|EDGE_HATCH|CONTAINER|EDGE_HATCH|EDGE_POINT|EDGE_SCALE|HH_MM|OFF|DMSZ_MX))(?=.*)",
+					"match":"(?<=^|\\s)((?i)(CODE_39|PGRH|OFF|OUT|POSA|PTFTP_DIFF1|bc|BSZ_SRC|BTR_ED_FS1|CODE_2_5_I|DD_MM_YY|DMOUT_CL|EDGE_GRAVE|EDGE_HATCH|CONTAINER|EDGE_HATCH|EDGE_POINT|EDGE_SCALE|HH_MM|OFF|DMSZ_MX))(?=.*)",
 					"name":"variable.parameter"
 				},
 				{
